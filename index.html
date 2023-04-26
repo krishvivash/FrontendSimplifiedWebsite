@@ -71,18 +71,20 @@
 
       <section id="discord">
         <h2>Discord</h2>
+        <div class="section__description">
         <figure>
           <img src="./Website Assests/discord.png" alt="Discord logo" />
-        </figure>
+        </figure class="about__image--wrapper">
         <div>
-          <p>
+          <p class="section__description--para">
             Join the Discord if you want help with your programming journey.
           </p>
-          <p>
+          <p class="section__description--para">
             There are over 2,000 people in the server talking about frontend and
             helping each other with code.
           </p>
-          <p>It's also absolutely free to join!</p>
+          <p class="section__description--para" >It's also absolutely free to join!</p>
+        </div>
         </div>
       </section>
 
@@ -90,25 +92,20 @@
         <h2>Contact</h2>
         <form action="">
           <span>Email</span>
-          <input type="text" placeholder="sonalevu@boci.com" />
+          <input type="email" placeholder="sonalevu@boci.com" />
           <span>Message</span>
-          <textarea>
-            name="Message"
-            id="messagecontact"
-            cols="30"
-            rows="10"
-          </textarea>
-          <button>Submit</button>
+          <textarea name="Message" placeholder="Type your message here!"></textarea>
+          <button>Contact Us</button>
         </form>
       </section>
     </main>
     <footer>
-      <img src="./Website Assests/FES.svg" alt="Frontend Simplified Logo" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="contact">Contact</a>
-        <a href="courses"></a>
+      <img class="footer__logo" src="./Website Assests/FES.svg" alt="Frontend Simplified Logo" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="contact">Contact</a>
+        <a class="footer__link" href="courses"></a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
